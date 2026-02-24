@@ -1,0 +1,3 @@
+- Use the lit skill when creating code
+- Minimize use of shadow DOM
+- After a code change always run `npm run build` and fix any build errors
