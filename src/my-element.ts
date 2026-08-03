@@ -50,10 +50,11 @@ export class MyElement extends LitElement {
         </header>
 
         <div class="gallery-content mx-auto max-w-6xl px-6 py-12">
-          <div class="gallery-intro mb-10 max-w-2xl">
-            <p class="eyebrow mb-2 text-sm font-medium text-muted-foreground">Component gallery</p>
-            <h1 class="gallery-title text-3xl font-bold tracking-tight sm:text-4xl">Kitchen sink</h1>
-            <p class="gallery-description mt-3 text-muted-foreground">A practical selection of shadcn-styled controls, form elements, feedback, and data display patterns.</p>
+          <div class="gallery-intro mb-10 max-w-3xl">
+            <p class="eyebrow mb-3 text-sm font-medium">Component gallery</p>
+            <h1 class="gallery-title font-bold">Kitchen sink</h1>
+            <p class="gallery-description mt-5 text-muted-foreground">A thoughtful collection of shadcn-styled controls, form elements, feedback, and data display patterns.</p>
+            <div class="gallery-stats"><span class="gallery-stat">16 building blocks</span><span class="gallery-stat">Interactive examples</span><span class="gallery-stat">Responsive by default</span></div>
           </div>
 
           <section class="component-grid grid gap-6 lg:grid-cols-2">
